@@ -1,0 +1,13 @@
+#nav #container {
+  padding: 0 10vw;
+}
+
+#nav-items {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  #nav #container {
+    padding: 0 5vw;
+  }
+}
