@@ -28,7 +28,7 @@ function FAQ() {
       <div>
         <Accordion>
           {faq.map((item, i) =>(
-            <FAQitem {...item} i={i} key={i}/>
+            <FAQitem {...item} i={String(i)} key={String(i)}/>
           ))}
         </Accordion>
       </div>
