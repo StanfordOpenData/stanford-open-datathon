@@ -1,0 +1,38 @@
+#faq {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  padding-top: 10vh;
+
+  .section-heading {
+    color: $Light-aqua;
+    text-align: center;
+  }
+
+  .card {
+    margin-top: 2.5vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    border: none;
+  }
+
+  .card-header {
+    border-radius: .5rem;
+    border-bottom: none;
+    background-color: $Light-blue;
+    color: $Blue;
+  }
+
+  .card-header:hover {
+    background-color: #D1EDEF;
+  }
+
+  .card-header:active {
+    background-color: $Light-aqua;
+  }
+
+  .card-body {
+    color: $Light-blue;
+  }
+}

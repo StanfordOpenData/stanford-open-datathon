@@ -24,7 +24,7 @@ const FAQitem = ({q, a, link, textb, textin, texta, i}) => {
 function FAQ() {
   return (
     <div id='faq'>
-      <h2>Frequently Asked Questions</h2>
+      <h2 class="section-heading">Frequently Asked Questions</h2>
       <div>
         <Accordion>
           {faq.map((item, i) =>(
