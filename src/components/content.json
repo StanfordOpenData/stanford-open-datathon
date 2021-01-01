@@ -1,0 +1,82 @@
+{
+  "tracks_intro": "In an effort to promote a more sustainable and diverse project community. Stanford Open Data has decided to create tracks based on the final submission products rather than limiting participants to certain topics. We have collected resources like project ideas, datasets, and example papers to help you on any ideas you want to pursue.",
+  "tracks": [
+    {
+      "name": "Data Science (Journalism)",
+      "description": "Craft an original piece of data journalism suitable for publication in a campus newspaper. Include both written content and charts to tell a story about a topic relevant to higher education.",
+      "reqs": [
+        "Article",
+        "GitHub Repo"
+      ],
+      "examples": [
+        "How much is a Stanford education worth?"
+      ]
+    },
+    {
+      "name": "Data Science (Modeling)",
+      "description": "Develop a statistical model analyzing a subject related to higher education. Describe the findings of your model in a short paper and any insights or recommendations for universities.",
+      "reqs": [
+        "Paper",
+        "GitHub Repo"
+      ],
+      "examples": [
+        "How have universities handled Covid-19 on campus?"
+      ]
+    },
+    {
+      "name": "Build Your Own Open Data Portal",
+      "description": "If your campus doesn’t yet have an open data portal, consider building one and starting your own open data organization! Check out Stanford’s portal for inspiration.",
+      "reqs": [
+        "Deployed Minimum Viable Product(MVP)",
+        "GitHub Repo"
+      ],
+      "examples": [
+        "A website capable of hosting university datasets."
+      ]
+    },
+    {
+      "name": "Policy and Advocacy",
+      "description": "Open data on college campuses relies on identifying and opening up new datasets, as well developing policies to balance transparency with student privacy or university interests. Begin a piece of advocacy towards furthering the goal of open data at your university.",
+      "reqs": [
+        "Policy Proposal"
+      ],
+      "examples": [
+        "An op-ed about a dataset your university should open up."
+      ]
+    }
+  ],
+
+  "faq": [
+    {
+      "q": "What is the Stanford Open Datathon?",
+      "a": "The Stanford Open Datathon is a weekend-long event for participants to work on a project related to open data. We aim to provide resources to support sustainable, long-term open data projects that improve transparency and accountability at universities. We hope the Stanford Open Datathon will serve as the starting point for long-term open data endeavors across the world."
+    },
+    {
+      "q": "Who is eligible to participate?",
+      "a": "Anyone over the age of 18 worldwide can apply to participate."
+    },
+    {
+      "q": "Is there a cost to participate?",
+      "a": "Nope! All starter packs, mentor office hours and workshops will be free and available to all our admitted participants."
+    },
+    {
+      "q": "What if I don’t have prior experience working with data?",
+      "a": "This will be the perfect place to explore! We will provide starter data packs and all the necessary resources to help you succeed. We also have a policy and advocacy track that does not require working with data."
+    },
+    {
+      "q": "What if I don’t have a team?",
+      "a": "Not a problem. All participants will be applying and then admitted on an individual basis. If there are not enough members on your team, we will select matching participants to be added into your team."
+    },
+    {
+      "q": "When will the datathon take place?",
+      "a": "The datathon will be hosted on either the 2nd or 3rd weekend of April."
+    },
+    {
+      "q": "Other questions?",
+      "link": "mailto:stanfordopendataproject@gmail.com",
+      "textb": "Email us at",
+      "textin": "stanfordopendataproject@gmail.com",
+      "texta": "."
+    }
+  ]
+}
