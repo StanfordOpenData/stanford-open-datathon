@@ -1,7 +1,26 @@
 #about #container {
-  padding: 0 10vw;
+  padding: 5vw 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $Navy;
+}
+
+.about-header {
+  color: $Aqua;
+}
+.about-text {
+  color: $White;
+  font-size: 20px;
+}
+.apply-now-btn {
+  background-color: $Aqua;
+  width: 216px;
+  height: 70px;
+  border-radius: 8px;
+  padding: 18px, 41px, 18px, 41px;
+  margin-top: 10px;
+  font-size: 28px;
+  border: none;
 }
