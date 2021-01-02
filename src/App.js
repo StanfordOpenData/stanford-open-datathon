@@ -6,14 +6,12 @@ import Tracks from "./components/tracks";
 import FAQ from "./components/faq";
 import Sponsors from "./components/sponsors";
 import Footer from "./components/footer";
-import DilanAbout from "./components/About/About";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
-      <DilanAbout />
       <About />
       <Tracks />
       <FAQ />

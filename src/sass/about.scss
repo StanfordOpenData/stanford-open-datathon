@@ -9,10 +9,12 @@
 
 .about-header {
   color: $Aqua;
+  font-size: 64px;
 }
 .about-text {
   color: $White;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 700;
 }
 .apply-now-btn {
   background-color: $Aqua;
@@ -20,7 +22,7 @@
   height: 70px;
   border-radius: 8px;
   padding: 18px, 41px, 18px, 41px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 28px;
   border: none;
 }
