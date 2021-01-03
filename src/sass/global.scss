@@ -7,3 +7,16 @@ $Aqua: #00AFB7;
 $Medium-aqua: #66C6BA;
 $Light-aqua: #C1E5E1;
 $White: #FFFFFF;
+
+/* Text Styling */
+.section-heading {
+  font-weight: 800;
+  font-size: 64px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* Links */
+a:hover {
+  text-decoration: none;
+}

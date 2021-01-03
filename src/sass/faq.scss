@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: auto;
   width: 80%;
-  padding-top: 10vh;
+  padding: 10vh 0vh;
 
   .section-heading {
     color: $Light-aqua;
@@ -14,6 +14,7 @@
     background-color: transparent;
     border-radius: .5rem;
     border: none;
+    font-family: 'Roboto', sans-serif;
   }
 
   .card-header {
@@ -21,6 +22,9 @@
     border-bottom: none;
     background-color: $Light-blue;
     color: $Blue;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
   }
 
   .card-header:hover {
@@ -33,5 +37,15 @@
 
   .card-body {
     color: $Light-blue;
+    font-weight: 400;
+
+    a {
+      color: $White;
+      font-weight: 500;
+    }
+
+    a:hover {
+      color: #E5E5E5;
+    }
   }
 }
