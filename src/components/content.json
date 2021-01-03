@@ -4,45 +4,31 @@
     {
       "name": "Data Science (Journalism)",
       "description": "Craft an original piece of data journalism suitable for publication in a campus newspaper. Include both written content and charts to tell a story about a topic relevant to higher education.",
-      "reqs": [
-        "Article",
-        "GitHub Repo"
-      ],
-      "examples": [
-        "How much is a Stanford education worth?"
-      ]
+      "reqs": ["Article", "GitHub Repo"],
+      "examples": ["How much is a Stanford education worth?"]
     },
     {
       "name": "Data Science (Modeling)",
       "description": "Develop a statistical model analyzing a subject related to higher education. Describe the findings of your model in a short paper and any insights or recommendations for universities.",
-      "reqs": [
-        "Paper",
-        "GitHub Repo"
-      ],
-      "examples": [
-        "How have universities handled Covid-19 on campus?"
-      ]
+      "reqs": ["Paper", "GitHub Repo"],
+      "examples": ["How have universities handled Covid-19 on campus?"]
     },
     {
       "name": "Build Your Own Open Data Portal",
       "description": "If your campus doesn’t yet have an open data portal, consider building one and starting your own open data organization! Check out Stanford’s portal for inspiration.",
-      "reqs": [
-        "Deployed Minimum Viable Product(MVP)",
-        "GitHub Repo"
-      ],
-      "examples": [
-        "A website capable of hosting university datasets."
-      ]
+      "reqs": ["Deployed Minimum Viable Product(MVP)", "GitHub Repo"],
+      "examples": ["A website capable of hosting university datasets."]
     },
     {
       "name": "Policy and Advocacy",
       "description": "Open data on college campuses relies on identifying and opening up new datasets, as well developing policies to balance transparency with student privacy or university interests. Begin a piece of advocacy towards furthering the goal of open data at your university.",
-      "reqs": [
-        "Policy Proposal"
-      ],
-      "examples": [
-        "An op-ed about a dataset your university should open up."
-      ]
+      "reqs": ["Policy Proposal"],
+      "examples": ["An op-ed about a dataset your university should open up."]
+    }
+  ],
+  "about": [
+    {
+      "content": "Sure, you’ll be hacking for 36 hours straight. But there will be yoga breaks. And virtual escape rooms. Among Us? Maybe even a live puppy cam. Whether you’re a seasoned veteran or just getting started, we’ve got your back every step of the way."
     }
   ],
 
