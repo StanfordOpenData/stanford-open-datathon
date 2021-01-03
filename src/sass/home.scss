@@ -1,7 +1,74 @@
-#home #container {
-  padding: 0 10vw;
+#home {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+
+  #home-content {
+    min-width: 55%;
+    margin-right: 5%;
+
+    * {
+      padding-bottom: 35px;
+    }
+
+    #home-logo {
+      max-height: 10vh;
+    }
+  
+    h1#Title {
+      color: $White;
+      font-weight: 800;
+      font-size: 84px;
+    }
+  
+    h4 {
+      color: $Light-aqua;
+      font-weight: 500;
+      font-size: 44px;
+    }
+
+    button {
+      margin-right: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 28px;
+      padding: .75rem 2.5rem;
+      border-radius: .5rem;
+    }
+
+    /* Solid Button */
+    button.btn-primary {
+      background-color: $Aqua;
+      border-color: $Aqua;
+      
+      a {
+        color: $White;
+      }
+    }
+
+    button.btn-primary:hover {
+      background-color: #009DA4;
+      border-color: #009DA4;
+    }
+
+    /* Transparent Button */
+    button.btn-outline-primary {
+      color: $Light-aqua;
+      border-color: $Light-aqua;
+    }
+
+    button.btn-outline-primary:hover {
+      background-color: rgba(193, 229, 225, .1);
+    }
+  }
+  #Hero {
+    min-width: 40%;
+    height: auto;
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
 }

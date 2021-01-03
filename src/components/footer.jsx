@@ -1,9 +1,19 @@
 import React from 'react';
+import Instagram from '../Images/Instagram.png'
+import Twitter from '../Images/Twitter.png'
+import Facebook from '../Images/Facebook.png'
+import Github from '../Images/Github.png'
 
 function Footer() {
   return (
     <div id="footer">
-
+      <div id="logos">
+        <a href="/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram"/></a>
+        <a href="/" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="Twitter"/></a>
+        <a href="/" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook"/></a>
+        <a href="/" target="_blank" rel="noopener noreferrer"><img src={Github} alt="Github"/></a>
+      </div>
+      <p>Hosted by the <a href="https://stanfordopendata.org/" target="_blank" rel="noopener noreferrer">Stanford Open Data Project</a></p>
     </div>
   )
 }

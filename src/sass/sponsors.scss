@@ -1,0 +1,30 @@
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 10vh 0vh;
+  background-color: $Navy;
+
+  .section-heading {
+    color: $Aqua;
+  }
+
+  button.btn-outline-primary {
+    color: $Light-aqua;
+    border-color: $Light-aqua;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding: .5rem 2.5rem;
+    border-radius: .5rem;
+
+    a {
+      color: $Light-aqua;
+    }
+  }
+
+  button.btn-outline-primary:hover {
+    background-color: rgba(193, 229, 225, .1);
+  }
+}
