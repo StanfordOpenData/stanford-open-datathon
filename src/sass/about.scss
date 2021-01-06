@@ -5,24 +5,37 @@
   justify-content: center;
   align-items: center;
   background-color: $Navy;
-}
 
-.about-header {
-  color: $Aqua;
-  font-size: 64px;
-}
-.about-text {
-  color: $White;
-  font-size: 30px;
-  font-weight: 700;
-}
-.apply-now-btn {
-  background-color: $Aqua;
-  width: 216px;
-  height: 70px;
-  border-radius: 8px;
-  padding: 18px, 41px, 18px, 41px;
-  margin-top: 20px;
-  font-size: 28px;
-  border: none;
+  .about-header {
+    color: $Aqua;
+  }
+  .about-text {
+    color: $White;
+    font-weight: 500;
+    font-size: $small-font * .8;
+  }
+  
+  /* Button */
+  button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: $small-font - 4px;
+    padding: .75rem 2.5rem;
+    border-radius: .5rem;
+  }
+  
+  button.btn-primary {
+    background-color: $Aqua;
+    border-color: $Aqua;
+    
+    a {
+      color: $White;
+    }
+  }
+  
+  button.btn-primary:hover {
+    background-color: #009DA4;
+    border-color: #009DA4;
+  }
+  
 }

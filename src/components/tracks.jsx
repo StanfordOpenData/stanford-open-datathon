@@ -2,7 +2,7 @@ import React from "react";
 import { tracks_intro } from "./content.json";
 import { tracks } from "./content.json";
 import Card from "react-bootstrap/Card";
-import photo from "./no-image.png";
+import photo from "../Images/no-image.png";
 function Tracks() {
   const TrackCard = (title, image, description) => {
     console.log("this is title", title);

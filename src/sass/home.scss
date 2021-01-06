@@ -20,20 +20,20 @@
     h1#Title {
       color: $White;
       font-weight: 800;
-      font-size: 84px;
+      font-size: $superlarge-font;
     }
   
     h4 {
       color: $Light-aqua;
       font-weight: 500;
-      font-size: 44px;
+      font-size: $medium-font - 4px;
     }
 
     button {
       margin-right: 30px;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
-      font-size: 28px;
+      font-size: $small-font - 4px;
       padding: .75rem 2.5rem;
       border-radius: .5rem;
     }
@@ -64,8 +64,9 @@
     }
   }
   #Hero {
-    min-width: 40%;
+    min-width: 30%;
     height: auto;
+    object-fit: cover;
 
     @media screen and (max-width: 1024px) {
       display: none;

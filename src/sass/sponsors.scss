@@ -14,7 +14,7 @@
     color: $Light-aqua;
     border-color: $Light-aqua;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: $small-font - 4px;
     font-weight: 500;
     padding: .5rem 2.5rem;
     border-radius: .5rem;

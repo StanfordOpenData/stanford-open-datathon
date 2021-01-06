@@ -24,7 +24,7 @@
     color: $Blue;
     cursor: pointer;
     font-weight: 500;
-    font-size: 20px;
+    font-size: $default-font + 4px;
   }
 
   .card-header:hover {
@@ -38,6 +38,7 @@
   .card-body {
     color: $Light-blue;
     font-weight: 400;
+    font-size: $default-font;
 
     a {
       color: $White;

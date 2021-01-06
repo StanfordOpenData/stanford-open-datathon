@@ -8,13 +8,11 @@
 }
 .tracks-text {
   color: $White;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: $small-font * .8;
+  font-weight: 500;
 }
 .tracks-header {
   color: $Medium-aqua;
-  font-size: 64px;
-  font-weight: 800;
 }
 #tracks {
   .card {
@@ -44,7 +42,7 @@
     flex-wrap: wrap;
   }
   .tracks-description {
-    font-size: 24px;
+    font-size: $small-font * .8;
     line-height: 24px;
     color: $Navy;
     align-items: center;
@@ -52,7 +50,7 @@
     padding: 15px;
   }
   .tracks-title {
-    font-size: 2vh;
+    font-size: $default-font;
     color: $Blue;
     font-weight: 500;
   }
