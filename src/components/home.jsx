@@ -13,7 +13,7 @@ function Home() {
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSekpg0-j0vEGCWg9ZM534NdDofMMaJggohJXFv6b1MrGPUYpw/viewform" 
             target="_blank" rel="noopener noreferrer">Apply Now!</a>
           </Button>
-          <Button variant="outline-primary shadow-none">Keep Me Updated</Button>
+          <Button variant="outline-primary shadow-none"><a href="http://eepurl.com/hnqk9H" target="_blank" rel="noopener noreferrer">Keep Me Updated</a></Button>
         </div>
       </div>
       <img id="Hero" src={Hero} alt="hero"/>
