@@ -61,6 +61,9 @@
     button.btn-outline-primary {
       color: $Light-aqua;
       border-color: $Light-aqua;
+      a {
+        color: $Light-aqua;
+      }
     }
 
     button.btn-outline-primary:hover {
@@ -68,8 +71,9 @@
     }
   }
   #Hero {
-    min-width: 30%;
-    height: auto;
+    min-width: 40%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
 
     @media screen and (max-width: 1024px) {
