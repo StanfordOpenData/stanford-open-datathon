@@ -3,7 +3,6 @@ import { about } from "./content.json";
 import Button from "react-bootstrap/Button"
 
 function About() {
-  console.log("this is about: ", about);
   return (
     <div id="about">
       <div id="container">
