@@ -2,14 +2,20 @@ import React from "react";
 import { tracks_intro } from "./content.json";
 import { tracks } from "./content.json";
 import Card from "react-bootstrap/Card";
-import photo from "../Images/no-image.png";
+
+const logos = {
+  "build": require("../Images/build.png"),
+  "policy": require("../Images/policy.png"),
+  "model": require("../Images/model.png"),
+  "journalism": require("../Images/journalism.png")
+}
 
 function Tracks() {
   const TrackCard = (title) => {
     return (
       <Card>
         {/* <div class="image-placeholder"></div> */}
-        <img src={photo} alt={title.name + "logo"} class="track-image img-thumbnail" />
+        <img src={logos[title.logo]} alt={title.name + "logo"} class="track-image" />
         <p class="tracks-title">{title.name}</p>
         <p class="tracks-description">{title.description}</p>
       </Card>
