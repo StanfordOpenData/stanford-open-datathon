@@ -66,6 +66,10 @@
       "a": "The datathon will occur over the weekend from April 9th to 11th."
     },
     {
+      "q": "When will I find out if I am accepted?",
+      "a": "Our application deadline is 3/15, and we hope to notify all applicants of their status within 2 weeks."
+    },
+    {
       "q": "Other questions?",
       "link": "mailto:stanfordopendataproject@gmail.com",
       "textb": "Email us at ",
