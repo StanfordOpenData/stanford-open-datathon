@@ -43,7 +43,7 @@
     },
     {
       "q": "When is the application deadline?",
-      "a": "3/15/21 11:59 PM PST. We hope to see you apply!"
+      "a": "3/17/21 11:59 PM PST. We hope to see you apply!"
     },
     {
       "q": "Who is eligible to participate?",
@@ -79,6 +79,20 @@
       "textb": "Email us at ",
       "textin": "stanfordopendataproject@gmail.com",
       "texta": "."
+    }
+  ],
+  "Spon": [
+    {
+      "name": "CIF",
+      "link": "https://www.codingitforward.com/"
+    },
+    {
+      "name": "SEA",
+      "link": "https://economics.stanford.edu/undergraduate/stanford-economics-association-sea"
+    },
+    {
+      "name": "SIEPR",
+      "link": "https://siepr.stanford.edu/"
     }
   ]
 }
