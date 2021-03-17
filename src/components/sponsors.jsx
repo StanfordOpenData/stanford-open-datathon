@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button'
 import { Spon } from './content.json'
 
 const logos = {
