@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spon } from './content.json'
+  import { Spon } from './content.json'
 
 const logos = {
   "CIF": require("../Images/Sponsors/CIF.png"),
@@ -7,7 +7,8 @@ const logos = {
   "USAFacts": require("../Images/Sponsors/USAFacts.png"),
   "CS": require("../Images/Sponsors/CS.png"),
   "SEA": require("../Images/Sponsors/SEA.jpeg"),
-  "SIEPR": require("../Images/Sponsors/SIEPR.png")
+  "SIEPR": require("../Images/Sponsors/SIEPR.png"),
+  "PIT": require("../Images/Sponsors/PIT.png")
 }
 
 function Sponsors() {

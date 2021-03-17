@@ -103,6 +103,11 @@
       "size": "large"
     },
     {
+      "name": "PIT",
+      "link": "https://pitlab.stanford.edu/",
+      "size": "medium"
+    },
+    {
       "name": "USAFacts",
       "link": "https://usafacts.org/",
       "size": "medium"
