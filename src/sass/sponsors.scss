@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 10vh 0vh;
-  background-color: $Navy;
+  padding: 10vh 0vw;
+  background-color: $Light-aqua;
 
   .section-heading {
     color: $Aqua;
@@ -28,7 +28,36 @@
     background-color: rgba(193, 229, 225, .1);
   }
 
-  .sponsor {
-    max-width: 25%;
+  #images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+
+    a.large{
+      width: 40%;
+      margin: 1rem 2rem;
+
+      @media screen and (max-width: 1024px) {
+        width: 90%;
+      }
+    }
+
+    a.medium {
+      width: 15%;
+      margin: 1rem 2rem;
+    }
+
+    a.small {
+      width: 10%;
+      margin: 1rem 2rem;
+    }
+    
+    .sponsor {
+      width: 100%;
+    }
   }
+
 }

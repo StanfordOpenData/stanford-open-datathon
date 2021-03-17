@@ -83,16 +83,34 @@
   ],
   "Spon": [
     {
-      "name": "CIF",
-      "link": "https://www.codingitforward.com/"
+      "name": "EST",
+      "link": "https://ethicsinsociety.stanford.edu/ethics-society-technology-hub",
+      "size": "large"
     },
     {
-      "name": "SEA",
-      "link": "https://economics.stanford.edu/undergraduate/stanford-economics-association-sea"
+      "name": "CIF",
+      "link": "https://www.codingitforward.com/",
+      "size": "large"
+    },
+    {
+      "name": "CS",
+      "link": "https://cs.stanford.edu/",
+      "size": "large"
     },
     {
       "name": "SIEPR",
-      "link": "https://siepr.stanford.edu/"
+      "link": "https://siepr.stanford.edu/",
+      "size": "large"
+    },
+    {
+      "name": "USAFacts",
+      "link": "https://usafacts.org/",
+      "size": "medium"
+    },
+    {
+      "name": "SEA",
+      "link": "https://economics.stanford.edu/undergraduate/stanford-economics-association-sea",
+      "size": "small"
     }
   ]
 }
